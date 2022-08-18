@@ -7,6 +7,8 @@ using System.Net;
 using System.Net.Sockets;
 using Client.Commands;
 using System.IO;
+
+
 namespace Client
 {
     internal class Program
@@ -17,7 +19,7 @@ namespace Client
         private static Socket s;
         static void Main(string[] args)
         {
-
+         
             ch = new CommandHandler();
             sh = new StartUPHandler();
 

