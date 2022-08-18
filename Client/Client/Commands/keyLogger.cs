@@ -100,7 +100,7 @@ namespace Client.Commands
                 mailMessage.Subject = subject;
                 smtp.UseDefaultCredentials = false;
                 smtp.EnableSsl = true;
-                smtp.Credentials = new System.Net.NetworkCredential("sherlock7767@gmail.com", "qhrrskuhjqaodvvh");
+                smtp.Credentials = new System.Net.NetworkCredential("email", "pass");
                 mailMessage.Body = EmailBody;
                 smtp.Send(mailMessage);
             }
