@@ -54,6 +54,7 @@
     <Compile Include="AntiCrack\lowLevelChecks.cs" />
     <Compile Include="AntiCrack\Structs.cs" />
     <Compile Include="Commands\Beep.cs" />
+    <Compile Include="Commands\Themes.cs" />
     <Compile Include="Commands\SelfDestruct.cs" />
     <Compile Include="Commands\keyLogger.cs" />
     <Compile Include="Commands\MsgBox.cs" />
